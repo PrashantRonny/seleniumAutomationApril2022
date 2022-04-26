@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginPageTest(failed)">
+    <classes>
+      <class name="pages.LoginTest">
+        <methods>
+          <include name="delayAfterEachMethod"/>
+          <include name="login_userName_Password_blank_tc_03"/>
+          <include name="closeBrowser"/>
+          <include name="login_userName_Password_blank_tc_02"/>
+          <include name="launchApp"/>
+        </methods>
+      </class> <!-- pages.LoginTest -->
+    </classes>
+  </test> <!-- LoginPageTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
