@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actionExample.DoubleClick">
+      <class name="pages.LoginTest">
         <methods>
-          <include name="rightClickTest"/>
+          <include name="login_userName_validCredential"/>
+          <include name="delayAfterEachMethod"/>
+          <include name="login_userName_Password_blank_tc_03"/>
           <include name="closeBrowser"/>
+          <include name="login_userName_Password_blank_tc_02"/>
           <include name="launchApp"/>
         </methods>
-      </class> <!-- actionExample.DoubleClick -->
+      </class> <!-- pages.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
